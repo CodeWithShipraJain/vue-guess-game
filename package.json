@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
     "start": "webpack-dev-server --config ./config/webpack.config.dev.js",
     "build": "webpack --config ./config/webpack.config.dev.js"
   },
   "author": "Shipra Jain",
   "license": "ISC",
   "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
